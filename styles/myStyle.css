@@ -1,0 +1,49 @@
+﻿body {
+    direction: rtl;
+}
+
+.card-title{
+ color: black; 
+}
+
+img{
+height: 150px;
+object-fit: contain;
+}
+
+.hide{
+  display: none;
+}
+
+.right{
+  display: flex;
+  justify-content: end;
+}
+
+#header{
+ background-image:url('../images/background\ img.jpeg'); 
+ height: 33vh;  
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  align-items: center;}
+
+  .yellow{
+    background-color: yellow;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
